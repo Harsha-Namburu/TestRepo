@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @-webkit-keyframes change-color {
+        0%   { background-color: #33E0FF; }
+        25%  { background-color: #33FF93; }
+        50%  { background-color: #E0FF33; }
+        100% { background-color: #FFBE33; }
+    }
+    @-moz-keyframes change-color {
+        0%   { background-color: #33E0FF; }
+        25%  { background-color: #33FF93; }
+        50%  { background-color: #E0FF33; }
+        100% { background-color: #FFBE33; }
+    }
+    @-o-keyframes change-color {
+        0%   { background-color: #33E0FF; }
+        25%  { background-color: #33FF93; }
+        50%  { background-color: #E0FF33; }
+        100% { background-color: #FFBE33; }
+    }
+    @keyframes change-color {
+        0%   { background-color: #33E0FF; }
+        25%  { background-color: #33FF93; }
+        50%  { background-color: #E0FF33; }
+        100% { background-color: #FFBE33; }
+    }
+
+    .bodyclass {
+        background-color: aliceblue;
+        padding: 50px;
+        display: flex;
+        height: 82vh;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid;
+        border-radius: 5px;
+        border-color: black;
+        -webkit-animation: change-color 2s infinite; /* Safari 4+ */
+        -moz-animation:    change-color 2s infinite; /* Fx 5+ */
+        -o-animation:      change-color 2s infinite; /* Opera 12+ */
+        animation:         change-color 2s infinite; /* IE 10+ */
+    }
+</style>
+<body class="bodyclass">
+    <h1>This is Harsha's 1st Project!!!!!!</h1>
+</body>
+</html>
